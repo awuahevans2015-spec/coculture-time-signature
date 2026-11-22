@@ -1,0 +1,3 @@
+# SHA-256 of downloaded GSE57338 files, 2026-11-21, written before the files were opened
+9a2376ab79b04ddbf75c5891f708169f28f53a5ea596f7be9e308b50ffe0e942  data/human/GSE57338\GPL11532-32230.txt
+7bcc3b96442bb8b42fa5ee56537b943b01c0b3ce079d5c2d5c6f3db0f1778a1d  data/human/GSE57338\GSE57338_series_matrix.txt.gz

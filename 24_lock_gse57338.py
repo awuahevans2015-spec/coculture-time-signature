@@ -1,0 +1,23 @@
+import os, stat, hashlib
+p = "docs/expected_direction_GSE57338_2026-11-21.txt"
+assert not os.path.exists(p), "already locked"
+txt = """EXPECTED-DIRECTION LOCK - GSE57338 - written 2026-11-21, BEFORE any GSE57338 expression data were opened.
+Dataset: GSE57338 (Affymetrix Human Gene 1.1 ST, left ventricle, 313 samples), declared in the Hahn 2021 lock as a secondary dataset.
+Disclosure: the Hahn 2021 results were seen before this lock (primary HFpEF vs control RVS: AUC 0.774, higher in failing hearts; the original
+expectation, lower in failing hearts, was NOT met). GSE57338 is therefore not a blind prediction.
+Hypotheses (exploratory, hypothesis-generating):
+  H0 (original expectation, kept as written): score lower in failing than non-failing hearts, AUC < 0.5.
+  H1 (replication of the observed Hahn direction): score higher in failing hearts, AUC > 0.5. Both AUC values are reported either way.
+Score: Version A day signature (161 genes, present genes only), score = mean z(up genes) - mean z(down genes), z within this dataset.
+Processing: use the processed expression values in the series matrix as provided; map probes to symbols with the platform annotation;
+multiple probes per symbol keep the probe with highest mean expression; all samples included; group labels from the series sample characteristics.
+Gene coverage rule: analyse the present genes; if fewer than 50% of the 161 are present, report as uninformative.
+Tests: AUC (P(score failing > score non-failing)), Mann-Whitney U, logistic regression adjusted for age and sex if available, 1000 random
+gene sets of equal size (seed 42). Secondary BH family: HFrEF vs control RVS, HFrEF vs control LVS, GSE57338.
+No dataset or test will be added after viewing results; any further analysis is labelled post hoc.
+"""
+open(p, "w", encoding="utf-8").write(txt)
+os.chmod(p, stat.S_IREAD)
+h = hashlib.sha256(open(p, "rb").read()).hexdigest()
+open("docs/checksums_expected_direction_GSE57338.txt", "w").write(h + "  " + p + "\n")
+print("locked:", p); print(h)

@@ -1,0 +1,6 @@
+Hypotheses, written 2026-11-14 before any analysis of the data
+H1 Culture time: pericyte-endothelial coupling and basement membrane genes rise with culture day.
+H2 Crosslinking density (a proxy for matrix stiffness; direction not pre-specified): adhesion and mechanotransduction genes (integrins, YAP/TAZ targets) change with crosslinking percentage.
+H3 The signature overlaps genes linked to cardiac fibrosis, microvascular dysfunction and heart failure.
+H4 Part of the signal is within-cell regulation, not only the endothelial:pericyte ratio.
+H5 In failing human myocardium a maturation score (from the culture-time signature) is lower, and a crosslinking-density score is higher. The maturation direction is exploratory (indirect rationale); the crosslinking-density direction is a rationale-based expectation from fibrosis and ECM stiffening, using crosslinking density as a proxy.

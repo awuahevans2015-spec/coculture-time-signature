@@ -1,0 +1,12 @@
+sample,observed,predicted
+Col_G_RNAseq1_Cocult_35PEG_d1,-1.5,0.1
+Col_H_RNAseq1_Cocult_50PEG_d1,0.0,-0.05
+Col_I_RNAseq1_Cocult_60PEG_d1,1.0,-0.15
+Col_O_RNAseq1_Cocult_35PEG_d2,-1.5,0.1
+Col_P_RNAseq1_Cocult_50PEG_d2,0.0,-0.05
+Col_Q_RNAseq1_Cocult_60PEG_d2,1.0,-0.15
+Col_V_RNAseq1_Cocult_50PEG_d3,0.0,-0.05
+Col_W_RNAseq1_Cocult_60PEG_d3,1.0,-0.15
+Col_AB_RNAseq1_Cocult_35PEG_d5,-1.5,0.1
+Col_AC_RNAseq1_Cocult_50PEG_d5,0.0,-0.05
+Col_AD_RNAseq1_Cocult_60PEG_d5,1.0,-0.15

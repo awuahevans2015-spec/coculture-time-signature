@@ -1,0 +1,11 @@
+Expected directions, dataset Hahn et al. 2021 (Zenodo v1.0.1, doi 10.5281/zenodo.4287234), written 2026-11-21 before any count file was opened
+Data: RawReads_RVS_Ensembl_geneName.xlsx and RawReads_LVS_Ensembl_geneName.xlsx; sample groups and tissue from SamplesTable_ALLpatients.csv; covariates from ClinicalCharacteristicsRNAseqSamples.csv.
+Score: culture-time score from the Version A day signature (161 genes): mean z of up genes minus mean z of down genes, as in 09_composition.py, z-scored across the samples of each analysis. Expected LOWER in failing hearts. Exploratory; indirect rationale only.
+AUC convention: AUC = P(score in failing > score in control); expected AUC below 0.5.
+Primary contrast: HFpEF vs donor control, right ventricular septum (RVS).
+Secondary contrasts (Benjamini-Hochberg across these): HFrEF vs donor control in RVS; HFrEF vs donor control in LVS; GSE57338 failing vs non-failing.
+Processing: raw counts as provided; drop genes with zero counts in all samples; match to signature genes by gene symbol; if a symbol is duplicated keep the row with the highest mean count; DESeq2 variance-stabilising transformation computed within each tissue, blind to group.
+Samples: all samples included. Sensitivity A: exclude samples 7709, 7546, 7715, 7559, 7718 (flagged in Supplemental Figure I). Sensitivity B: remove blood-contamination genes listed in ExcludeRBCgenes.xlsx from the signature. Sensitivity C: remove ribosomal genes (RPL/RPS/MRPL/MRPS) and the genes in the top-10 enriched sets used in 14_sensitivity.py.
+Gene coverage: report how many of the 161 signature genes are present; analyse the present genes; if fewer than 50% are present, report the result as uninformative.
+Crosslinking score: NOT TESTABLE (signature has fewer than 3 genes).
+Tests: AUC, Mann-Whitney U, logistic regression adjusted for age and sex where available, 1000 random gene sets of equal size drawn from the present genes. No test or contrast will be added after viewing results.

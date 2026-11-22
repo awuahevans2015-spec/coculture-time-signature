@@ -1,0 +1,251 @@
+## DE_day.csv  shape=(13650, 6)
+Unnamed: 0    baseMean  log2FoldChange    lfcSE       pvalue         padj
+      A1BG  109.348301       -0.190641 0.070184 2.236840e-03 8.713719e-03
+     A2LD1   31.432417       -0.071614 0.100844 3.464211e-01 4.918502e-01
+       A2M 8593.655859        0.051472 0.063514 3.764351e-01 5.228798e-01
+    A4GALT  344.776091       -0.603568 0.093007 6.140657e-13 2.005263e-11
+      AAAS  295.116383        0.019881 0.050328 6.708812e-01 7.770496e-01
+      AACS  259.558142       -0.087327 0.049427 5.896814e-02 1.283347e-01
+     AADAT  103.552451        0.313112 0.075272 6.737009e-06 5.573344e-05
+     AAED1  118.336880       -0.017141 0.066551 7.717463e-01 8.486048e-01
+     AAGAB  348.359449        0.047022 0.042283 2.445488e-01 3.808868e-01
+      AAK1  670.100373        0.122581 0.040249 1.650964e-03 6.713330e-03
+      AAMP  601.247891       -0.105064 0.038669 4.837787e-03 1.668413e-02
+      AARS  717.946922        0.122738 0.035295 3.218877e-04 1.647457e-03
+     AARS2  198.658194        0.227649 0.066269 1.419744e-04 8.159791e-04
+    AARSD1  212.638497        0.039089 0.051045 4.106171e-01 5.556581e-01
+     AASDH   73.826375        0.127440 0.080649 6.586788e-02 1.401772e-01
+  AASDHPPT  343.048027        0.003799 0.044763 9.311809e-01 9.561889e-01
+      AASS  175.951153        0.190316 0.062611 1.039684e-03 4.522524e-03
+      AATF  294.312763       -0.196696 0.043791 2.521106e-06 2.345814e-05
+      AATK   37.359867        0.220636 0.130975 2.237987e-02 5.916815e-02
+      ABAT   17.727656       -0.189759 0.153550 5.156832e-02 1.158886e-01
+     ABCA1 1190.546677       -0.324621 0.058056 3.071402e-09 5.169498e-08
+    ABCA10   36.669044        0.252464 0.127460 8.414265e-03 2.651309e-02
+    ABCA13   10.069974       -0.112433 0.165258 1.816520e-01 3.042392e-01
+     ABCA2  597.065567        0.012349 0.053450 8.005773e-01 8.694311e-01
+     ABCA3  532.196815       -0.066644 0.062844 2.593869e-01 3.977343e-01
+     ABCA4  142.127277       -0.147662 0.080531 2.671026e-02 6.837866e-02
+     ABCA5  105.603201       -0.127790 0.068895 3.718505e-02 8.918923e-02
+     ABCA6   69.221182        0.430961 0.105059 5.592600e-06 4.747449e-05
+     ABCA7  166.247589       -0.084376 0.069705 1.663240e-01 2.846800e-01
+     ABCA8  371.396024       -0.258394 0.076292 2.571485e-04 1.360495e-03
+     ABCA9  118.230820        0.308462 0.077082 9.945130e-06 7.873542e-05
+    ABCB10  174.485783        0.085782 0.055458 9.507954e-02 1.859364e-01
+     ABCB5    9.854616        0.063579 0.141602 3.625123e-01 5.087286e-01
+     ABCB6  352.540473       -0.227420 0.050155 2.590384e-06 2.400458e-05
+     ABCB7  174.375257       -0.016533 0.054591 7.480938e-01 8.307420e-01
+     ABCB8  239.777091        0.020173 0.059030 7.058990e-01 8.014241e-01
+     ABCB9   64.778049        0.005900 0.083772 9.326111e-01 9.572975e-01
+     ABCC1 1287.711695       -0.303078 0.081986 1.657183e-05 1.234073e-04
+    ABCC10  436.454925        0.172085 0.063136 2.010661e-03 7.952919e-03
+     ABCC2   16.027441        0.016204 0.113636 8.303183e-01 8.901339e-01
+## DE_peg.csv  shape=(13650, 6)
+Unnamed: 0    baseMean  log2FoldChange    lfcSE   pvalue               padj
+      A1BG  109.348301       -0.002452 0.012693 0.322456  0.983614843373725
+     A2LD1   31.432417       -0.001458 0.012647 0.317846   0.98290398976828
+       A2M 8593.655859       -0.002026 0.012609 0.386312  0.995440354109235
+    A4GALT  344.776091        0.266679 0.085407 0.000066 0.0115020057554491
+      AAAS  295.116383        0.001031 0.012234 0.745684  0.999909109179888
+      AACS  259.558142       -0.000432 0.012161 0.889143  0.999909109179888
+     AADAT  103.552451       -0.000743 0.012414 0.749787  0.999909109179888
+     AAED1  118.336880       -0.000923 0.012426 0.697150  0.999909109179888
+     AAGAB  348.359449        0.000984 0.012051 0.787483  0.999909109179888
+      AAK1  670.100373       -0.006911 0.014410 0.414017  0.998763241394175
+      AAMP  601.247891        0.000724 0.011895 0.855924  0.999909109179888
+      AARS  717.946922        0.008795 0.015647 0.090882  0.775632220785291
+     AARS2  198.658194       -0.000321 0.012318 0.903369  0.999909109179888
+    AARSD1  212.638497       -0.000777 0.012224 0.797967  0.999909109179888
+     AASDH   73.826375        0.001233 0.012523 0.548672  0.999909109179888
+  AASDHPPT  343.048027        0.001124 0.012143 0.745913  0.999909109179888
+      AASS  175.951153        0.000063 0.012314 0.980544  0.999909109179888
+      AATF  294.312763        0.007883 0.015421 0.066422  0.696984601798592
+      AATK   37.359867       -0.000704 0.012565 0.594747  0.999909109179888
+      ABAT   17.727656       -0.002254 0.012856 0.047142  0.619586363199024
+     ABCA1 1190.546677       -0.009410 0.017674 0.009243  0.268765854003555
+    ABCA10   36.669044        0.000813 0.012559 0.587537  0.999909109179888
+    ABCA13   10.069974        0.000023 0.012588 0.975495                 NA
+     ABCA2  597.065567       -0.003108 0.012739 0.316918   0.98290398976828
+     ABCA3  532.196815        0.000412 0.012372 0.850010  0.999909109179888
+     ABCA4  142.127277        0.000102 0.012420 0.961610  0.999909109179888
+     ABCA5  105.603201        0.000395 0.012376 0.873187  0.999909109179888
+     ABCA6   69.221182       -0.000164 0.012485 0.926905  0.999909109179888
+     ABCA7  166.247589        0.004005 0.013310 0.097936  0.786243782136093
+     ABCA8  371.396024        0.004259 0.013453 0.075676  0.734657869580283
+     ABCA9  118.230820        0.002692 0.012799 0.253989   0.95991491811616
+    ABCB10  174.485783       -0.003912 0.013088 0.201584  0.935202849161076
+     ABCB5    9.854616        0.000358 0.012599 0.484518                 NA
+     ABCB6  352.540473        0.000975 0.012197 0.763762  0.999909109179888
+     ABCB7  174.375257        0.000483 0.012282 0.890187  0.999909109179888
+     ABCB8  239.777091        0.003280 0.012898 0.243932   0.95841309013896
+     ABCB9   64.778049        0.001195 0.012561 0.508730  0.999909109179888
+     ABCC1 1287.711695        0.007236 0.015644 0.004020  0.165960320105856
+    ABCC10  436.454925        0.002124 0.012538 0.443007  0.999909109179888
+     ABCC2   16.027441       -0.000379 0.012576 0.702040                 NA
+## Table1_performance.csv  shape=(12, 12)
+  target version model  n  n_genes                  rho      mae  nperm               p_perm  null_mae  mae_gain_vs_null_%  meets_rule
+log2_day       A  enet 11    13650    0.970004686024295 0.079779   1000 0.000999000999000999  0.832986           90.422540        True
+log2_day       A  null 11    13650                      0.832986      0                       0.832986            0.000000       False
+log2_day       A ridge 11    13650    0.970004686024295 0.080109   1000 0.000999000999000999  0.832986           90.382935        True
+log2_day       B  enet 11     1212    0.970004686024295 0.104926   1000 0.000999000999000999  0.832986           87.403645        True
+log2_day       B  null 11     1212                      0.832986      0                       0.832986            0.000000       False
+log2_day       B ridge 11     1212    0.970004686024295 0.110755   1000 0.000999000999000999  0.832986           86.703885        True
+   peg_c       A  enet 11    13650 -0.03861356447997063 0.978287   1000  0.24175824175824176  0.872727          -12.095392       False
+   peg_c       A  null 11    13650                      0.872727      0                       0.872727            0.000000       False
+   peg_c       A ridge 11    13650  0.45749276381434284 0.785185   1000 0.058941058941058944  0.872727           10.030830       False
+   peg_c       B  enet 11     1212  0.24560137846875252 0.776718   1000  0.14385614385614387  0.872727           11.001072       False
+   peg_c       B  null 11     1212                      0.872727      0                       0.872727            0.000000       False
+   peg_c       B ridge 11     1212 -0.03852570642647098 0.963472   1000  0.18981018981018982  0.872727          -10.397859       False
+## Table_LOCO.csv  shape=(108, 6)
+  target  hold_out version model                rho      mae
+log2_day    by_day       A  enet 0.8762844265050392 0.411005
+log2_day  by_day=1       A  enet                    0.551919
+log2_day  by_day=2       A  enet                    0.126790
+log2_day  by_day=3       A  enet                    0.049347
+log2_day  by_day=5       A  enet                    0.795413
+log2_day    by_day       A ridge  0.970004686024295 0.403935
+log2_day  by_day=1       A ridge                    0.549728
+log2_day  by_day=2       A ridge                    0.130095
+log2_day  by_day=3       A ridge                    0.104555
+log2_day  by_day=5       A ridge                    0.731567
+log2_day    by_day       A  null                    1.030377
+log2_day  by_day=1       A  null                    1.641964
+log2_day  by_day=2       A  null                    0.266964
+log2_day  by_day=3       A  null                    0.477653
+log2_day  by_day=5       A  null                    1.550687
+log2_day    by_day       B  enet 0.9465746211444811 0.370306
+log2_day  by_day=1       B  enet                    0.551526
+log2_day  by_day=2       B  enet                    0.082813
+log2_day  by_day=3       B  enet                    0.073178
+log2_day  by_day=5       B  enet                    0.674663
+log2_day    by_day       B ridge 0.9465746211444811 0.386623
+log2_day  by_day=1       B ridge                    0.511880
+log2_day  by_day=2       B ridge                    0.114367
+log2_day  by_day=3       B ridge                    0.098186
+log2_day  by_day=5       B ridge                    0.725915
+log2_day    by_day       B  null                    1.030377
+log2_day  by_day=1       B  null                    1.641964
+log2_day  by_day=2       B  null                    0.266964
+log2_day  by_day=3       B  null                    0.477653
+log2_day  by_day=5       B  null                    1.550687
+log2_day    by_peg       A  enet  0.970004686024295 0.106784
+log2_day by_peg=35       A  enet                    0.084631
+log2_day by_peg=50       A  enet                    0.100901
+log2_day by_peg=60       A  enet                    0.129283
+log2_day    by_peg       A ridge  0.970004686024295 0.106872
+log2_day by_peg=35       A ridge                    0.149488
+log2_day by_peg=50       A ridge                    0.103740
+log2_day by_peg=60       A ridge                    0.078042
+log2_day    by_peg       A  null                    0.760221
+log2_day by_peg=35       A  null                    0.849550
+## Table_PCA_baseline.csv  shape=(2, 6)
+  target     model      rho      mae  nperm   p_perm
+log2_day PCA+ridge 0.970005 0.112457   1000 0.000999
+   peg_c PCA+ridge 0.182997 0.919252   1000 0.170829
+## Table_overlap.csv  shape=(12, 9)
+version   target                geneset  signature_size  overlap  set_size             p                                     note                    FDR
+      A log2_day         MVD_panel_core             161       33      1212  4.054811e-06                                           6.011224558249404e-06
+      A log2_day MVD_panel_with_markers             161       33      1218  4.508418e-06                                           6.011224558249404e-06
+      A log2_day          disease_genes             161        2       213  7.194556e-01                                              0.7194555890994205
+      A log2_day          pathway_genes             161       32      1025  3.030632e-07                                          1.2122526096619456e-06
+      B log2_day         MVD_panel_core             110      110      1212 1.976891e-118 partly circular (B comes from the panel)                       
+      B log2_day MVD_panel_with_markers             110      110      1218 3.492693e-118 partly circular (B comes from the panel)                       
+      B log2_day          disease_genes             110       14       213  1.625621e-09 partly circular (B comes from the panel)                       
+      B log2_day          pathway_genes             110       98      1025  1.146220e-97 partly circular (B comes from the panel)                       
+      B    peg_c         MVD_panel_core               2        2      1212  7.877951e-03 partly circular (B comes from the panel)                       
+      B    peg_c MVD_panel_with_markers               2        2      1218  7.956176e-03 partly circular (B comes from the panel)                       
+      B    peg_c          disease_genes               2        2       213  2.423717e-04 partly circular (B comes from the panel)                       
+      B    peg_c          pathway_genes               2        2      1025  5.633656e-03 partly circular (B comes from the panel)                       
+## Table_secondary_BH.csv  shape=(3, 4)
+                       analysis   AUC        MWU_p     BH_adj_p
+ secondary HFrEF vs control RVS 0.619 1.366549e-01 1.366549e-01
+ secondary HFrEF vs control LVS 0.773 1.102749e-03 1.654123e-03
+GSE57338 failing vs non-failing 0.720 2.673871e-11 8.021614e-11
+## Table_validation_GSE57338.csv  shape=(1, 15)
+                       analysis tissue  n_case  n_ctrl  n_up  n_down  AUC  H0_lower_met  H1_higher_met        MWU_p  adj_OR_per_SD     adj_LR_p  random_p_onesided_lower  random_p_onesided_higher  random_p_twosided
+GSE57338 failing vs non-failing     LV     177     136    73      77 0.72         False           True 2.673871e-11          2.347 1.270516e-09                  0.96004                  0.040959           0.077922
+## Table_validation_Hahn.csv  shape=(6, 14)
+                                analysis tissue  case  n_case  n_ctrl  n_up  n_down   AUC  direction_as_expected    MWU_p  adj_OR_per_SD  adj_LR_p  random_p_onesided  random_p_twosided
+            PRIMARY HFpEF vs control RVS    RVS HFpEF      41      24    63      68 0.774                  False 0.000249          2.304  0.005664           0.858142           0.311688
+          secondary HFrEF vs control RVS    RVS HFrEF      30      24    63      68 0.619                  False 0.136655          1.588  0.114550           0.710290           0.635365
+          secondary HFrEF vs control LVS    LVS HFrEF      29      21    63      68 0.773                  False 0.001103          2.919  0.002386           0.857143           0.296703
+          sens A exclude flagged samples    RVS HFpEF      36      24    63      68 0.788                  False 0.000177          3.207  0.000342           0.872128           0.286713
+                 sens B remove RBC genes    RVS HFpEF      41      24    63      68 0.774                  False 0.000249          2.304  0.005664           0.858142           0.311688
+sens C remove ribosomal and top-10-se...    RVS HFpEF      41      24    62      44 0.859                  False 0.000002          4.529  0.000008           0.933067           0.157842
+## composition.csv  shape=(2, 11)
+  target  sig_size rho_score_vs_target rho_ratio_removed   rho_score_vs_ratio    p_score_vs_target      p_ratio_removed    p_score_vs_ratio enet_rho_with_markers enet_rho_without_markers                                  note
+log2_day       161   0.970004686024295 0.970004686024295 -0.26363636363636367 7.85954712430902e-07 7.85954712430902e-07 0.43344073761161456     0.970004686024295        0.970004686024295                                      
+   peg_c         0                                                                                                                                                                         fewer than 3 signature genes; skipped
+## composition_v1_before_MAE_patch.csv  shape=(2, 11)
+  target  sig_size rho_score_vs_target rho_ratio_removed   rho_score_vs_ratio    p_score_vs_target      p_ratio_removed    p_score_vs_ratio enet_rho_with_markers enet_rho_without_markers                                  note
+log2_day       161   0.970004686024295 0.970004686024295 -0.26363636363636367 7.85954712430902e-07 7.85954712430902e-07 0.43344073761161456     0.970004686024295        0.970004686024295                                      
+   peg_c         0                                                                                                                                                                         fewer than 3 signature genes; skipped
+## composition_v2.csv  shape=(2, 13)
+  target  sig_size rho_score_vs_target rho_ratio_removed   rho_score_vs_ratio    p_score_vs_target      p_ratio_removed    p_score_vs_ratio enet_rho_with_markers enet_rho_without_markers enet_mae_with_markers enet_mae_without_markers                                  note
+log2_day       161   0.970004686024295 0.970004686024295 -0.26363636363636367 7.85954712430902e-07 7.85954712430902e-07 0.43344073761161456     0.970004686024295        0.970004686024295    0.0797789466117048      0.07973878182490363                                      
+   peg_c         0                                                                                                                                                                                                                        fewer than 3 signature genes; skipped
+## enrichment_log2_day.csv  shape=(6005, 6)
+                                      ID  Count GeneRatio   BgRatio       pvalue     p.adjust
+            GOBP_CYTOPLASMIC_TRANSLATION     21    21/161 159/13650 1.772350e-16 5.321481e-13
+REACTOME_EUKARYOTIC_TRANSLATION_INITI...     19    19/161 117/13650 1.006224e-16 5.321481e-13
+REACTOME_EUKARYOTIC_TRANSLATION_ELONG...     17    17/161  91/13650 3.808426e-16 7.623199e-13
+                           KEGG_RIBOSOME     16    16/161  85/13650 2.572573e-15 3.862076e-12
+    REACTOME_SELENOAMINO_ACID_METABOLISM     17    17/161 104/13650 3.995044e-15 4.798047e-12
+REACTOME_RESPONSE_OF_EIF2AK4_GCN2_TO_...     16    16/161  98/13650 2.718173e-14 2.720438e-11
+REACTOME_SRP_DEPENDENT_COTRANSLATIONA...     16    16/161 109/13650 1.531148e-13 1.313506e-10
+    REACTOME_NONSENSE_MEDIATED_DECAY_NMD     16    16/161 113/13650 2.732785e-13 2.051297e-10
+REACTOME_CELLULAR_RESPONSE_TO_STARVATION     17    17/161 145/13650 1.129405e-12 7.535643e-10
+            REACTOME_INFLUENZA_INFECTION     17    17/161 152/13650 2.458033e-12 1.476049e-09
+REACTOME_INFLUENZA_VIRAL_RNA_TRANSCRI...     16    16/161 131/13650 2.845294e-12 1.553272e-09
+REACTOME_RIBOSOME_ASSOCIATED_QUALITY_...     16    16/161 138/13650 6.412579e-12 3.208962e-09
+REACTOME_METABOLISM_OF_AMINO_ACIDS_AN...     21    21/161 272/13650 8.184173e-12 3.780458e-09
+REACTOME_REGULATION_OF_EXPRESSION_OF_...     16    16/161 145/13650 1.379859e-11 5.918611e-09
+GOBP_NEGATIVE_REGULATION_OF_SYNCYTIUM...     10    10/161  47/13650 1.400249e-10 5.605663e-08
+                    REACTOME_TRANSLATION     21    21/161 323/13650 2.063962e-10 7.746307e-08
+    REACTOME_SIGNALING_BY_ROBO_RECEPTORS     16    16/161 185/13650 5.497472e-10 1.941901e-07
+GOBP_REGULATION_OF_SYNCYTIUM_FORMATIO...     10    10/161  57/13650 1.055503e-09 3.335945e-07
+                REACTOME_RRNA_PROCESSING     16    16/161 193/13650 1.026961e-09 3.335945e-07
+        GOBP_STRIATED_MUSCLE_CONTRACTION     15    15/161 188/13650 5.938355e-09 1.782991e-06
+                    GOBP_MYOBLAST_FUSION     10    10/161  71/13650 9.797446e-09 2.801603e-06
+REACTOME_ACTIVATION_OF_THE_MRNA_UPON_...      9     9/161  59/13650 2.679458e-08 7.313704e-06
+                GOBP_SYNCYTIUM_FORMATION     10    10/161  81/13650 3.602794e-08 9.406426e-06
+                 GOBP_MUSCLE_CONTRACTION     17    17/161 291/13650 5.922083e-08 1.481755e-05
+     REACTOME_NERVOUS_SYSTEM_DEVELOPMENT     21    21/161 474/13650 1.772692e-07 4.258006e-05
+REACTOME_RIBOSOME_QUALITY_CONTROL_RQC...     10    10/161  97/13650 2.052370e-07 4.740185e-05
+              GOBP_MUSCLE_SYSTEM_PROCESS     18    18/161 369/13650 3.558532e-07 7.914440e-05
+            GOBP_MYOTUBE_DIFFERENTIATION     11    11/161 133/13650 4.772939e-07 1.023625e-04
+                        HALLMARK_HYPOXIA     12    12/161 173/13650 9.502992e-07 1.967775e-04
+REACTOME_SARS_COV_1_MODULATES_HOST_TR...      6     6/161  36/13650 3.564748e-06 7.135437e-04
+   REACTOME_SARS_COV_1_HOST_INTERACTIONS      8     8/161  87/13650 8.346609e-06 1.616819e-03
+GOBP_RESPONSE_TO_REACTIVE_OXYGEN_SPECIES     10    10/161 151/13650 1.185698e-05 2.225037e-03
+GOBP_CYTOPLASMIC_TRANSLATIONAL_INITIA...      6     6/161  46/13650 1.555251e-05 2.830086e-03
+           REACTOME_SARS_COV_1_INFECTION      9     9/161 129/13650 2.163684e-05 3.752545e-03
+GOBP_STRIATED_MUSCLE_CELL_DIFFERENTIA...     13    13/161 274/13650 2.187162e-05 3.752545e-03
+GOBP_CARDIAC_NEURAL_CREST_CELL_DIFFER...      4     4/161  15/13650 2.299810e-05 3.836210e-03
+REACTOME_SARS_COV_2_MODULATES_HOST_TR...      6     6/161  50/13650 2.537811e-05 4.118799e-03
+      GOBP_RESPONSE_TO_HYDROGEN_PEROXIDE      7     7/161  78/13650 3.647809e-05 5.754906e-03
+                    GOBP_CELL_CHEMOTAXIS     11    11/161 209/13650 3.737574e-05 5.754906e-03
+                REACTOME_GLUCONEOGENESIS      4     4/161  17/13650 3.936726e-05 5.910011e-03
+## qc_table.csv  shape=(11, 3)
+                        sample  lib_size  genes_detected
+ Col_G_RNAseq1_Cocult_35PEG_d1   7963114           13614
+ Col_H_RNAseq1_Cocult_50PEG_d1   8933699           13618
+ Col_I_RNAseq1_Cocult_60PEG_d1   8682500           13606
+ Col_O_RNAseq1_Cocult_35PEG_d2   9552386           13637
+ Col_P_RNAseq1_Cocult_50PEG_d2   9339795           13629
+ Col_Q_RNAseq1_Cocult_60PEG_d2   8980944           13630
+ Col_V_RNAseq1_Cocult_50PEG_d3  10128525           13631
+ Col_W_RNAseq1_Cocult_60PEG_d3  10482260           13631
+Col_AB_RNAseq1_Cocult_35PEG_d5   9621814           13628
+Col_AC_RNAseq1_Cocult_50PEG_d5  10636386           13633
+Col_AD_RNAseq1_Cocult_60PEG_d5   9604186           13636
+## sensitivity_no_translation.csv  shape=(4, 7)
+model                     input  n_genes      rho      mae  null_mae  mae_gain_vs_null_pct
+ enet                 all genes    13650 0.970005 0.079779  0.832986             90.422540
+ enet translation genes removed    13199 0.970005 0.076459  0.832986             90.821045
+ridge                 all genes    13650 0.970005 0.080109  0.832986             90.382935
+ridge translation genes removed    13199 0.970005 0.084385  0.832986             89.869636
+## signature_log2_day_A.csv: 13650 genes, in_signature = 161
+## signature_log2_day_B.csv: 1212 genes, in_signature = 110
+## signature_peg_c_A.csv: 13650 genes, in_signature = 0
+## signature_peg_c_B.csv: 1212 genes, in_signature = 2

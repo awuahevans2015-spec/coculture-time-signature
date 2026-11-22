@@ -1,0 +1,3 @@
+target,sig_size,rho_score_vs_target,rho_ratio_removed,rho_score_vs_ratio,p_score_vs_target,p_ratio_removed,p_score_vs_ratio,enet_rho_with_markers,enet_rho_without_markers,enet_mae_with_markers,enet_mae_without_markers,note
+log2_day,161,0.970004686024295,0.970004686024295,-0.26363636363636367,7.85954712430902e-07,7.85954712430902e-07,0.43344073761161456,0.970004686024295,0.970004686024295,0.0797789466117048,0.07973878182490363,
+peg_c,0,,,,,,,,,,,fewer than 3 signature genes; skipped
