@@ -4,4 +4,5 @@ Use: re-analysis of public data. Files: GSE93511_RSEM_results.xlsx (sheet 'RNAse
 Download date: 2026-11-13
 Cells: hPSC-derived endothelial cells (H1-EC) with primary human brain pericytes; hypoxic (1.5% O2) culture.
 Primary set: 11 co-culture PEG-RGD samples, one per condition (no biological replicates).
-Built by scripts/00_build_counts.R; counts rounded from RSEM expected counts.
+Built by 00_build_counts.R; counts rounded from RSEM expected counts.
+Validation dataset: Hahn et al. 2021 (HFpEF/HFrEF RNA-seq), Zenodo https://doi.org/10.5281/zenodo.4287234. Second validation dataset: GEO GSE57338.
