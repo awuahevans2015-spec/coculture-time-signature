@@ -40,3 +40,8 @@ throughout. Scripts 04 and 04a are R scripts; the others are Python.
 
 ## Licence
 MIT
+
+## Data
+- GEO GSE93511 (co-culture): https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE93511
+- GEO GSE57338 (human heart failure): https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE57338
+- Hahn et al. 2021 (HFpEF/HFrEF RNA-seq): https://doi.org/10.5281/zenodo.4287234
